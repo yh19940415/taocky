@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/argv_test.dir/argv.c.o  -o argv_test -rdynamic 

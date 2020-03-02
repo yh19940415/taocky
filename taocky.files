@@ -1,0 +1,11 @@
+cmake_test/CMakeLists.txt
+cmake_test/strcmp/src/strcmp.c
+cmake_test/strcmp/src/CMakeLists.txt
+cmake_test/strcmp/CMakeLists.txt
+cmake_test/argv/src/CMakeLists.txt
+cmake_test/argv/CMakeLists.txt
+cmake_test/argv/src/argv.c
+cmake_test/double_pointer/src/double_pointer.c
+cmake_test/double_pointer/CMakeLists.txt
+cmake_test/double_pointer/src/double_pointer.c
+cmake_test/double_pointer/src/CMakeLists.txt

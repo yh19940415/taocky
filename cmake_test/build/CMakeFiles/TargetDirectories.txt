@@ -1,0 +1,2 @@
+/home/dji/git/taocky/cmake_test/build/argv/bin/CMakeFiles/argv_test.dir
+/home/dji/git/taocky/cmake_test/build/strcmp/bin/CMakeFiles/strcmp_test.dir
