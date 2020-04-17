@@ -99,6 +99,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named sigfpe_test
+
+# Build rule for target.
+sigfpe_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sigfpe_test
+.PHONY : sigfpe_test
+
+# fast build rule for target.
+sigfpe_test/fast:
+	$(MAKE) -f sigfpe/bin/CMakeFiles/sigfpe_test.dir/build.make sigfpe/bin/CMakeFiles/sigfpe_test.dir/build
+.PHONY : sigfpe_test/fast
+
+#=============================================================================
 # Target rules for targets named strcmp_test
 
 # Build rule for target.
@@ -124,6 +137,32 @@ argv_test/fast:
 	$(MAKE) -f argv/bin/CMakeFiles/argv_test.dir/build.make argv/bin/CMakeFiles/argv_test.dir/build
 .PHONY : argv_test/fast
 
+#=============================================================================
+# Target rules for targets named double_pointer
+
+# Build rule for target.
+double_pointer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 double_pointer
+.PHONY : double_pointer
+
+# fast build rule for target.
+double_pointer/fast:
+	$(MAKE) -f double_pointer/bin/CMakeFiles/double_pointer.dir/build.make double_pointer/bin/CMakeFiles/double_pointer.dir/build
+.PHONY : double_pointer/fast
+
+#=============================================================================
+# Target rules for targets named dcos_debug_pressure_test
+
+# Build rule for target.
+dcos_debug_pressure_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dcos_debug_pressure_test
+.PHONY : dcos_debug_pressure_test
+
+# fast build rule for target.
+dcos_debug_pressure_test/fast:
+	$(MAKE) -f dcos_debug_pressure_test/bin/CMakeFiles/dcos_debug_pressure_test.dir/build.make dcos_debug_pressure_test/bin/CMakeFiles/dcos_debug_pressure_test.dir/build
+.PHONY : dcos_debug_pressure_test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,8 +171,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... sigfpe_test"
 	@echo "... strcmp_test"
 	@echo "... argv_test"
+	@echo "... double_pointer"
+	@echo "... dcos_debug_pressure_test"
 .PHONY : help
 
 

@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/double_pointer.dir/double_pointer.c.o  -o double_pointer -rdynamic 

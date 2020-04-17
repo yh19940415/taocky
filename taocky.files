@@ -9,3 +9,16 @@ cmake_test/double_pointer/src/double_pointer.c
 cmake_test/double_pointer/CMakeLists.txt
 cmake_test/double_pointer/src/double_pointer.c
 cmake_test/double_pointer/src/CMakeLists.txt
+cmake_test/realloc/CMakeLists.txt
+cmake_test/realloc/src/strcmp.c
+cmake_test/realloc/src/CMakeLists.txt
+cmake_test/dcos_debug_pressure_test/CMakeLists.txt
+cmake_test/dcos_debug_pressure_test/src/dcos_debug_pressure_test.c
+cmake_test/dcos_debug_pressure_test/src/CMakeLists.txt
+cmake_test/sigfpe/src/sigfpe.c
+cmake_test/sigfpe/src/CMakeLists.txt
+cmake_test/sigfpe/CMakeLists.txt
+cmake_test/performance_time/src/performance_time.c
+cmake_test/performance_time/src/CMakeLists.txt
+cmake_test/performance_time/CMakeLists.txt
+cmake_test/performance_time/src/performance_time.h
