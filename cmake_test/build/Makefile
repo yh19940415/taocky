@@ -163,6 +163,19 @@ dcos_debug_pressure_test/fast:
 	$(MAKE) -f dcos_debug_pressure_test/bin/CMakeFiles/dcos_debug_pressure_test.dir/build.make dcos_debug_pressure_test/bin/CMakeFiles/dcos_debug_pressure_test.dir/build
 .PHONY : dcos_debug_pressure_test/fast
 
+#=============================================================================
+# Target rules for targets named performance_time
+
+# Build rule for target.
+performance_time: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 performance_time
+.PHONY : performance_time
+
+# fast build rule for target.
+performance_time/fast:
+	$(MAKE) -f performance_time/bin/CMakeFiles/performance_time.dir/build.make performance_time/bin/CMakeFiles/performance_time.dir/build
+.PHONY : performance_time/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -176,6 +189,7 @@ help:
 	@echo "... argv_test"
 	@echo "... double_pointer"
 	@echo "... dcos_debug_pressure_test"
+	@echo "... performance_time"
 .PHONY : help
 
 

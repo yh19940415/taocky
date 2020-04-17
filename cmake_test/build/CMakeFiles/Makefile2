@@ -89,7 +89,7 @@ sigfpe/bin/preinstall:
 sigfpe/bin/CMakeFiles/sigfpe_test.dir/all:
 	$(MAKE) -f sigfpe/bin/CMakeFiles/sigfpe_test.dir/build.make sigfpe/bin/CMakeFiles/sigfpe_test.dir/depend
 	$(MAKE) -f sigfpe/bin/CMakeFiles/sigfpe_test.dir/build.make sigfpe/bin/CMakeFiles/sigfpe_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dji/git/taocky/cmake_test/build/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dji/git/taocky/cmake_test/build/CMakeFiles  5
 	@echo "Built target sigfpe_test"
 .PHONY : sigfpe/bin/CMakeFiles/sigfpe_test.dir/all
 
@@ -154,7 +154,7 @@ strcmp/bin/preinstall:
 strcmp/bin/CMakeFiles/strcmp_test.dir/all:
 	$(MAKE) -f strcmp/bin/CMakeFiles/strcmp_test.dir/build.make strcmp/bin/CMakeFiles/strcmp_test.dir/depend
 	$(MAKE) -f strcmp/bin/CMakeFiles/strcmp_test.dir/build.make strcmp/bin/CMakeFiles/strcmp_test.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dji/git/taocky/cmake_test/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dji/git/taocky/cmake_test/build/CMakeFiles  6
 	@echo "Built target strcmp_test"
 .PHONY : strcmp/bin/CMakeFiles/strcmp_test.dir/all
 
@@ -375,6 +375,71 @@ dcos_debug_pressure_test/bin/CMakeFiles/dcos_debug_pressure_test.dir/clean:
 
 # clean rule for target.
 clean: dcos_debug_pressure_test/bin/CMakeFiles/dcos_debug_pressure_test.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory performance_time
+
+# Convenience name for "all" pass in the directory.
+performance_time/all: performance_time/bin/all
+.PHONY : performance_time/all
+
+# Convenience name for "clean" pass in the directory.
+performance_time/clean: performance_time/bin/clean
+.PHONY : performance_time/clean
+
+# Convenience name for "preinstall" pass in the directory.
+performance_time/preinstall: performance_time/bin/preinstall
+.PHONY : performance_time/preinstall
+
+#=============================================================================
+# Directory level rules for directory performance_time/bin
+
+# Convenience name for "all" pass in the directory.
+performance_time/bin/all: performance_time/bin/CMakeFiles/performance_time.dir/all
+.PHONY : performance_time/bin/all
+
+# Convenience name for "clean" pass in the directory.
+performance_time/bin/clean: performance_time/bin/CMakeFiles/performance_time.dir/clean
+.PHONY : performance_time/bin/clean
+
+# Convenience name for "preinstall" pass in the directory.
+performance_time/bin/preinstall:
+.PHONY : performance_time/bin/preinstall
+
+#=============================================================================
+# Target rules for target performance_time/bin/CMakeFiles/performance_time.dir
+
+# All Build rule for target.
+performance_time/bin/CMakeFiles/performance_time.dir/all:
+	$(MAKE) -f performance_time/bin/CMakeFiles/performance_time.dir/build.make performance_time/bin/CMakeFiles/performance_time.dir/depend
+	$(MAKE) -f performance_time/bin/CMakeFiles/performance_time.dir/build.make performance_time/bin/CMakeFiles/performance_time.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dji/git/taocky/cmake_test/build/CMakeFiles  4
+	@echo "Built target performance_time"
+.PHONY : performance_time/bin/CMakeFiles/performance_time.dir/all
+
+# Include target in all.
+all: performance_time/bin/CMakeFiles/performance_time.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+performance_time/bin/CMakeFiles/performance_time.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dji/git/taocky/cmake_test/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 performance_time/bin/CMakeFiles/performance_time.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dji/git/taocky/cmake_test/build/CMakeFiles 0
+.PHONY : performance_time/bin/CMakeFiles/performance_time.dir/rule
+
+# Convenience name for target.
+performance_time: performance_time/bin/CMakeFiles/performance_time.dir/rule
+.PHONY : performance_time
+
+# clean rule for target.
+performance_time/bin/CMakeFiles/performance_time.dir/clean:
+	$(MAKE) -f performance_time/bin/CMakeFiles/performance_time.dir/build.make performance_time/bin/CMakeFiles/performance_time.dir/clean
+.PHONY : performance_time/bin/CMakeFiles/performance_time.dir/clean
+
+# clean rule for target.
+clean: performance_time/bin/CMakeFiles/performance_time.dir/clean
 .PHONY : clean
 
 #=============================================================================

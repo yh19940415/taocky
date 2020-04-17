@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dji/git/taocky/cmake_test/dcos_debug_pressure_test/src/dcos_debug_pressure_test.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
