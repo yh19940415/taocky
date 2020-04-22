@@ -22,3 +22,6 @@ cmake_test/performance_time/src/performance_time.c
 cmake_test/performance_time/src/CMakeLists.txt
 cmake_test/performance_time/CMakeLists.txt
 cmake_test/performance_time/src/performance_time.h
+cmake_test/neststruct/CMakeLists.txt
+cmake_test/neststruct/src/neststruct.c
+cmake_test/neststruct/src/CMakeLists.txt

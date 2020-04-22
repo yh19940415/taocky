@@ -8,4 +8,5 @@ add_subdirectory(argv)
 add_subdirectory(double_pointer)
 add_subdirectory(dcos_debug_pressure_test)
 add_subdirectory(performance_time)
+add_subdirectory(neststruct)
 
