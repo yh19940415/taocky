@@ -1,6 +1,0 @@
-/home/dji/git/taocky/cmake_test/build/argv/bin/CMakeFiles/argv_test.dir
-/home/dji/git/taocky/cmake_test/build/dcos_debug_pressure_test/bin/CMakeFiles/dcos_debug_pressure_test.dir
-/home/dji/git/taocky/cmake_test/build/double_pointer/bin/CMakeFiles/double_pointer.dir
-/home/dji/git/taocky/cmake_test/build/performance_time/bin/CMakeFiles/performance_time.dir
-/home/dji/git/taocky/cmake_test/build/sigfpe/bin/CMakeFiles/sigfpe_test.dir
-/home/dji/git/taocky/cmake_test/build/strcmp/bin/CMakeFiles/strcmp_test.dir

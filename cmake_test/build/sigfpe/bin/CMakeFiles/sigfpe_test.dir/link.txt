@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/sigfpe_test.dir/sigfpe.c.o  -o sigfpe_test -rdynamic 

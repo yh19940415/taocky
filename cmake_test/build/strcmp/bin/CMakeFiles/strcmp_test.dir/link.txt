@@ -1,1 +1,0 @@
-/usr/bin/cc      CMakeFiles/strcmp_test.dir/strcmp.c.o  -o strcmp_test -rdynamic 
