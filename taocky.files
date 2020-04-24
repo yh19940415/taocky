@@ -33,3 +33,6 @@ cmake_test/neststruct/src/neststruct.cpp
 cmake_test/neststruct/src/CMakeLists.txt
 cmake_test/rollbackfile/src/rollbackfile.c
 cmake_test/rollbackfile/src/CMakeLists.txt
+cmake_test/structmd5/CMakeLists.txt
+cmake_test/structmd5/src/structmd5.c
+cmake_test/structmd5/src/CMakeLists.txt
