@@ -47,11 +47,6 @@ int main(int argc, char **argv)
 
   fwrite(array,1, strlen(array), fpath);
   fclose(fpath);
-  int loop0 = atoi(argv[1]);
-  int myarray [loop0];
-  for (i = 0; i < loop0; i++) {
-    myarray[i] = i;
-    printf("array[%d]:%d\n", i, myarray[i]);
-  }
+
   return 0;
 }

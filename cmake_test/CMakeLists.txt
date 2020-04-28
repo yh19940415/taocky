@@ -4,6 +4,7 @@ project(cmake_test)
 
 add_subdirectory(sigfpe)
 add_subdirectory(strcmp)
+add_subdirectory(realloc)
 add_subdirectory(argv)
 add_subdirectory(double_pointer)
 add_subdirectory(dcos_debug_pressure_test)

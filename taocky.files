@@ -10,7 +10,7 @@ cmake_test/double_pointer/CMakeLists.txt
 cmake_test/double_pointer/src/double_pointer.c
 cmake_test/double_pointer/src/CMakeLists.txt
 cmake_test/realloc/CMakeLists.txt
-cmake_test/realloc/src/strcmp.c
+cmake_test/realloc/src/realloc.c
 cmake_test/realloc/src/CMakeLists.txt
 cmake_test/dcos_debug_pressure_test/CMakeLists.txt
 cmake_test/dcos_debug_pressure_test/src/dcos_debug_pressure_test.c

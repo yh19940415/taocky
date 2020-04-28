@@ -115,31 +115,17 @@ typedef struct perf_time
   time.pre_time = time.last_time;                 \
   get_time(&time.last_time);                      \
   time.delta_ms = time.last_time - time.pre_time; \
-  if (perf_time_cnt < PERF_POINT_LEN -1 ) {          \
-    perf_time_cnt++;                                \
-    time.point[perf_time_cnt] = time.last_time; \
-    memset(array, 0, length);\
-    snprintf(array, length, "%-10d:delta:%10ld last_time:%20ld pre_time:%20ld start_time:%20ld\n", perf_time_cnt, time.delta_ms, time.last_time, time.pre_time, time.start_time);\
-    fwrite(array,1, strlen(array), fpath);\
-  } else {  \
-    memset(array, 0, length);\
-    snprintf(array, length, "error:perf_time_cnt is greater than PERF_POINT_LEN:%d\n", PERF_POINT_LEN);\
-    fwrite(array,1, strlen(array), fpath);\
-    memset(array, 0, length);\
-    snprintf(array, length, "%-10d:delta:%10ld last_time:%20ld pre_time:%20ld start_time:%20ld\n", perf_time_cnt, time.delta_ms, time.last_time, time.pre_time, time.start_time);\
-    fwrite(array,1, strlen(array), fpath);\
-  }
+  perf_time_cnt++;                                \
+  memset(array, 0, length);\
+  snprintf(array, length, "%-10d:delta:%10ld last_time:%20ld pre_time:%20ld start_time:%20ld\n", perf_time_cnt, time.delta_ms, time.last_time, time.pre_time, time.start_time);\
+  fwrite(array,1, strlen(array), fpath);
+
 
 #define PERF_TIME_AVERAGE_FILE(fpath, array, length)                          \
-  if (perf_time_cnt < PERF_POINT_LEN ) {          \
     memset(array, 0, length);\
     snprintf(array, length, "\n\ntotoal count%-d:\taverage:%ld\tlast_time:%ld\tpre_time:%ld\tstart_time:%ld\n", perf_time_cnt, (time.last_time - time.start_time)/perf_time_cnt, time.last_time, time.pre_time, time.start_time);\
-    fwrite(array,1, strlen(array), fpath);\
-  } else {  \
-    memset(array, 0, length);\
-    snprintf(array, length, "error:perf_time_cnt is greater than PERF_POINT_LEN:%d\n", PERF_POINT_LEN);\
-    fwrite(array,1, strlen(array), fpath);\
-  }
+    fwrite(array,1, strlen(array), fpath);
+
 
 
 #ifdef __cplusplus
