@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
+set(CMAKE_C_FLAGS "-Wall -O0 -g")
+
 project(cmake_test)
 
 add_subdirectory(sigfpe)
@@ -12,3 +14,5 @@ add_subdirectory(performance_time)
 add_subdirectory(neststruct)
 add_subdirectory(rollbackfile)
 add_subdirectory(structmd5)
+add_subdirectory(fun_ptr)
+add_subdirectory(hashtable)

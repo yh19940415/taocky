@@ -6,12 +6,12 @@ int main(int argc, char **argv)
 {
   char *p;
   p = calloc(2, 1);
+  printf("p1: %s\n", p);
 
-  printf("p1: %s", p);
+  strncpy(p, "1234567", 10);
 
-  strncpy(p, "abcdefg", 10);
-
-  printf("p2: %s", p);
+  printf("p2: %s\n", p);
+  printf("len:%ld\n", strlen(p));
 
   return 0;
 }

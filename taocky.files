@@ -36,3 +36,12 @@ cmake_test/rollbackfile/src/CMakeLists.txt
 cmake_test/structmd5/CMakeLists.txt
 cmake_test/structmd5/src/structmd5.c
 cmake_test/structmd5/src/CMakeLists.txt
+cmake_test/fun_ptr/CMakeLists.txt
+cmake_test/fun_ptr/src/fun_ptr.c
+cmake_test/fun_ptr/src/CMakeLists.txt
+cmake_test/hashtable/CMakeLists.txt
+cmake_test/hashtable/src/hashtable.c
+cmake_test/hashtable/src/CMakeLists.txt
+cmake_test/hashtable/src/hashtable.h
+cmake_test/hashtable/src/hashtable.c
+cmake_test/hashtable/src/CMakeLists.txt
