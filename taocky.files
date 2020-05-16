@@ -45,3 +45,14 @@ cmake_test/hashtable/src/CMakeLists.txt
 cmake_test/hashtable/src/hashtable.h
 cmake_test/hashtable/src/hashtable.c
 cmake_test/hashtable/src/CMakeLists.txt
+cmake_test/strtok/CMakeLists.txt
+cmake_test/strtok/src/strtok.c
+cmake_test/strtok/src/CMakeLists.txt
+cmake_test/aligned/CMakeLists.txt
+cmake_test/aligned/src/CMakeLists.txt
+cmake_test/aligned/src/aligned.c
+cmake_test/shell/log_tad4.sh
+cmake_test/shell/update_tda4.sh
+cmake_test/shell/log.txt
+cmake_test/aligned/src/CMakeLists.txt
+cmake_test/aligned/src/aligned.c
