@@ -56,3 +56,6 @@ cmake_test/shell/update_tda4.sh
 cmake_test/shell/log.txt
 cmake_test/aligned/src/CMakeLists.txt
 cmake_test/aligned/src/aligned.c
+cmake_test/coredump_create/CMakeLists.txt
+cmake_test/coredump_create/src/coredump_create.c
+cmake_test/coredump_create/src/CMakeLists.txt
