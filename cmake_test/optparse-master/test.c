@@ -73,7 +73,6 @@ void try_optparse_long(char **argv)
 
 int main(int argc, char **argv)
 {
-    printf("haocky\n");
     char *long_argv[] = {
         "./main", "--amend", "-b", "--color", "red", "--delay=22",
         "subcommand", "example.txt", "--amend", NULL
