@@ -48,7 +48,7 @@
 #define OPTPARSE_H
 
 #ifndef OPTPARSE_API
-#  define OPTPARSE_API
+#define OPTPARSE_API
 #endif
 
 struct optparse {
@@ -113,6 +113,8 @@ int optparse_long(struct optparse *options,
  */
 OPTPARSE_API
 char *optparse_arg(struct optparse *options);
+
+#define OPTPARSE_IMPLEMENTATION
 
 /* Implementation */
 #ifdef OPTPARSE_IMPLEMENTATION

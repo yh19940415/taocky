@@ -33,6 +33,10 @@ int main()
     for(i = 0; i < strlen(str); i++) {
       printf("%x", str[i]);
     }
+    char *result1 = strtok( NULL, delims );
+    char *resul2 = strtok( NULL, delims );
+    char *resul3 = strtok( NULL, delims );
+    char *resul4 = strtok( NULL, delims );
     return 0;
 }
 

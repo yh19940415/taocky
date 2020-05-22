@@ -1,0 +1,7 @@
+../strtok/src/strtok.c:17:    result = strtok( str, delims );
+../strtok/src/strtok.c:20:      result = strtok( NULL, delims );
+../strtok/src/strtok.c:36:    char *result1 = strtok( NULL, delims );
+../strtok/src/strtok.c:37:    char *resul2 = strtok( NULL, delims );
+../strtok/src/strtok.c:38:    char *resul3 = strtok( NULL, delims );
+../strtok/src/strtok.c:39:    char *resul4 = strtok( NULL, delims );
+

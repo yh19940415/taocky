@@ -19,7 +19,7 @@ void try_getopt(int argc, char **argv)
     int opt;
 
     print_argv(argv);
-    while ((opt = getopt(argc, argv, "abc:d::")) != -1) {
+    while ((opt = getopt(argc, argv, "abc:d:e:")) != -1) {
         printf("%c (%d) = '%s'\n", opt, optind, optarg);
     }
     printf("optind = %d\n", optind);
@@ -35,10 +35,11 @@ void try_optparse(char **argv)
 
     print_argv(argv);
     optparse_init(&options, argv);
-    while ((opt = optparse(&options, "abc:d::")) != -1) {
+    while ((opt = optparse(&options, "abc:d:e:")) != -1) {
         if (opt == '?')
             printf("%s: %s\n", argv[0], options.errmsg);
-        printf("%c (%d) = '%s'\n", opt, options.optind, options.optarg);
+
+        printf("haocky:%c (%d) = '%s'\n", opt, options.optind, options.optarg);
     }
     printf("optind = %d\n", options.optind);
     while ((arg = optparse_arg(&options)))
@@ -71,14 +72,15 @@ void try_optparse_long(char **argv)
         printf("argument: %s\n", arg);
 }
 
+
 int main(int argc, char **argv)
 {
-    printf("haocky\n");
+    printf("coredump %s\n", NULL);
     char *long_argv[] = {
         "./main", "--amend", "-b", "--color", "red", "--delay=22",
         "subcommand", "example.txt", "--amend", NULL
     };
-    size_t size = (argc + 1) * sizeof(*argv);
+    size_t size = (argc + 1) * sizeof(*argv);//malloc the char *array[len] size
     char **argv_copy = malloc(size);
 
     memcpy(argv_copy, argv, size);

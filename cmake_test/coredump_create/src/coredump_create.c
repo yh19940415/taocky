@@ -5,9 +5,10 @@
 
 int main(int argc, char **argv)
 {
+  printf("coredump %s\n", NULL);
   char *p = NULL;
   printf("print the NULL char pointer to create coredump\n");
-  printf("%s\n", p);
+ printf("coredump %s\n", NULL);
 
 
   return 0;
