@@ -8,29 +8,19 @@ questions:data is max
 3 x86: linux:148362 tda4-1:148475 tda4-2:148472
 
 
-
-
-
 tda1:10.10.249.145
 tda2:10.10.249.145
 
 
- linux:148362 tda4-1:148514
-
-
+linux:148362 tda4-1:148514
 
 zuixin
 linux:148523
 tad1:148617
 tad2:148634
 
-
-
-
 tad1:148
 tad2:148647
-
-
 
 2020.05.16
 linux:148785
@@ -39,10 +29,7 @@ linux:148785
 2020.05.19
 x86:149329
 linux:149128
-
-
 linux:149444
-
 
 2020.05.21
 linux:150175
@@ -58,7 +45,37 @@ linux:150356 jinhan malloc
 
 linux:150366 strtok
 
-
 linux:150666
 tda4-1 150720 single thread
-tda4-1 150720 two thread
+tda4-2 150777 two thread
+
+
+
+linux:150666
+tda4-1 151319
+tda4-2
+
+2020.05.26
+linux:152095
+tda4-1:151761, tda4-1:152191 recycle msg
+tda4-2
+
+tda4-1:152215, 10 thread
+tda4-1:152283, 10 remote
+tda4-1:152301, 10 global
+tda4-1:152370, 10 global return
+
+tda4-1:152396, pub service
+
+
+2020.5.28
+tda4-1: single get int;
+
+tda4-1: 8 times single get int;
+tda4-2: 152650
+
+
+linux:152736
+tda4-1
+tda4-2
+

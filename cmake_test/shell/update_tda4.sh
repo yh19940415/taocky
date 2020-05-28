@@ -1,7 +1,7 @@
 #!/bin/bash
-local_ip=dji@10.60.23.72
-ip1=dji@10.60.23.138
-ip2=dji@10.60.23.135
+local_ip=dji@10.60.123.72
+ip1=dji@10.60.123.133
+ip2=dji@10.60.123.24
 pack=1
 while getopts ":t:n:p:" opt
 do
@@ -51,7 +51,7 @@ cd ~/Downloads
 rm ${package} -rf
 unzip ${package}.zip
 
-sudo scp /home/dji/Downloads/${package}/* ${ip}:~/haocky/package/${package}
+echo "dji" | sudo -S scp /home/dji/Downloads/${package}/* ${ip}:~/haocky/package/${package}
 
 if [ $type == debug_br1609_dcos ]
 then

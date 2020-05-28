@@ -26,10 +26,11 @@ typedef struct dcos_param2_handle{
   int32_t file_len;
   int32_t struct_len;
   int32_t data_length;
+  int32_t reserved;
   uint64_t cjson;
   pthread_mutex_t lock;
 //  uint8_t data[0];
-}dcos_param2_handle_t __attribute__((aligned(4)));
+}dcos_param2_handle_t __attribute__((aligned(8)));
 
 typedef struct dcos_param2_handle_1{
   char file_full_path_name[PARAM_FILE_LEN];
@@ -118,11 +119,13 @@ typedef struct dcos_param2_handle_5{
   int32_t file_len;
   int32_t struct_len;
   int32_t data_length;
+  int32_t reserved;
 //  uint8_t data[0];
 }dcos_param2_handle_t_5 __attribute__((aligned(4)));
 
 int main()
 {
+    printf("sizeof:%ld\n", sizeof(pthread_mutex_t));
     printf("sizeof:%ld\n", sizeof(dcos_param2_handle_t));
     printf("1sizeof:%ld\n", sizeof(dcos_param2_handle_t_1));
     printf("2sizeof:%ld\n", sizeof(dcos_param2_handle_t_2));
