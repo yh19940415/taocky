@@ -1,0 +1,12 @@
+systrace turn off because of trace_marker Permission denied
+
+[1;31;40m[host]: 63         [name]: dji_sys                          [reg_status]: 1          [phy_status]: 0          [reg_count]:1          [inst_pid]:26069     [0m
+
+systrace turn off because of trace_marker Permission denied
+
+[1;31;40m[host]: 63         [name]: dji_sys                          [reg_status]: 1          [phy_status]: 0          [reg_count]:1          [inst_pid]:26069     [0m
+
+systrace turn off because of trace_marker Permission denied
+
+[1;31;40m[host]: 63         [name]: dji_sys                          [reg_status]: 1          [phy_status]: 0          [reg_count]:1          [inst_pid]:26069     [0m
+

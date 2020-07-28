@@ -39,6 +39,18 @@ void sizof_test(char len[])
 
 int main(int argc, char **argv)
 {
+
+  char **dp;
+  printf("double pointer:%d", dp);
+
+  char **dp1;
+  printf("double pointer:%d", dp1);
+
+  char **dp2;
+  printf("double pointer:%d", dp2);
+  char **dp3;
+  printf("double pointer:%d", dp3);
+
   param_data_t data;
 
 

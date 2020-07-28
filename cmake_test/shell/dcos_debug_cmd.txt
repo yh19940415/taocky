@@ -1,0 +1,25 @@
+show version
+cmdlist
+inst stat
+inst stat -id 63
+inst stat -host_name dji_sys
+ms module -id 63 1
+ms module -host_name dji_sys
+ms agent -id 63
+ms agent -host_name dji_sys
+ms sysstat
+ms set_log_level -level 4
+ms get_log_level
+shmem brief
+shmem detail
+shmem busy
+shmem timeout
+shmem free
+topic list
+topic list -topic_name sensor_time
+topic list -host_name dji_sys
+topic hz -topic_name sensor_time
+service list
+service list -service_name debug_transfer_service_1
+version show -id 63 1
+version show -host_name dji_sys

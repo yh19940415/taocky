@@ -1,0 +1,4 @@
+<global: loglevel(1)  attaches(80)  nr_buckets(0) phy_base(0) vir_base(600000242ab0) vir_sup_end(610000000000) totlen(2997629776) used(3009296) inited(1)> 
+
+<global: loglevel(1)  attaches(105)  nr_buckets(0) phy_base(0) vir_base(600000242ab0) vir_sup_end(610000000000) totlen(2997629776) used(3009296) inited(1)> 
+

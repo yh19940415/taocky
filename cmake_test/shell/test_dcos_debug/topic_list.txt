@@ -1,0 +1,26 @@
+systrace turn off because of trace_marker Permission denied
+[1;33m ------ dump begin: ------ [0m
+[1;33m [Topic name: sensor_time, Topic type: time_msg] publisher num:1, subscribers num:1 --> [0m
+	Publisher: 
+	-->on machine[1]: item[0]: host:<4>, module:<33> 
+	Subscriber: 
+	-->on machine[1]: item[0]: host:<63>, module:<1> 
+[1;33m [Topic name: /dji_sys/sys_audit/audit2gui/v1, Topic type: dcos::Any] publisher num:1, subscribers num:0 --> [0m
+	Publisher: 
+	-->on machine[1]: item[0]: host:<63>, module:<3> 
+	Subscriber: 
+[1;33m ------ dump end: ------ [0m
+
+systrace turn off because of trace_marker Permission denied
+[1;33m ------ dump begin: ------ [0m
+[1;33m [Topic name: sensor_time, Topic type: time_msg] publisher num:1, subscribers num:1 --> [0m
+	Publisher: 
+	-->on machine[1]: item[0]: host:<4>, module:<33> 
+	Subscriber: 
+	-->on machine[1]: item[0]: host:<63>, module:<1> 
+[1;33m [Topic name: /dji_sys/sys_audit/audit2gui/v1, Topic type: dcos::Any] publisher num:1, subscribers num:0 --> [0m
+	Publisher: 
+	-->on machine[1]: item[0]: host:<63>, module:<3> 
+	Subscriber: 
+[1;33m ------ dump end: ------ [0m
+

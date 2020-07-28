@@ -15,7 +15,6 @@ void add_buf(char *buf)
 
 void test_main(int argc, char argv[3][128])
 {
-
   int i = atoi(argv[0]);
   printf("i:%d\n", i);
 }

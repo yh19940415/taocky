@@ -76,6 +76,18 @@ tda4-2: 152650
 
 
 linux:152736
-tda4-1
-tda4-2
+tda4-1:152739
+tda4-2:152756
 
+
+linux:152736
+tda4-1:152805, no c7x
+tda4-2:152
+
+linux:153480
+
+
+
+
+linux 162756
+sysbios 163497

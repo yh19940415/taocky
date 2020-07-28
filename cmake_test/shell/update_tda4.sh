@@ -1,6 +1,6 @@
 #!/bin/bash
 local_ip=dji@10.60.123.72
-ip1=dji@10.60.123.133
+ip1=dji@10.10.253.142
 ip2=dji@10.60.123.24
 pack=1
 while getopts ":t:n:p:" opt
@@ -70,10 +70,14 @@ ssh ${ip} > /dev/null 2>&1 << eeooff
 cd ~/haocky/package/${package}
 sudo tar -zxvf ${type}*
 sudo cp -v debug_br1609_product*/dcos_test* /lib/firmware
-sudo mv -v debug_br1609_product*/djisyslog.out ~/haocky/package/${package}/
+#sudo mv -v debug_br1609_product*/djisyslog.out ~/haocky/package/${package}/
 sudo chmod 777 ~/haocky/package/${package}/djisyslog.out
 exit
 eeooff
 echo done!
 fi
+
+
+
+
 

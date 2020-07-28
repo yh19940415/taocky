@@ -1,0 +1,14 @@
+[host]  2	length		addr@msg		 form to		topic
+-------------------------------------------------
+[host]  4	length		addr@msg		 form to		topic
+-------------------------------------------------
+[host] 63	length		addr@msg		 form to		topic
+-------------------------------------------------
+
+[host]  2	length		addr@msg		 form to		topic
+-------------------------------------------------
+[host]  4	length		addr@msg		 form to		topic
+-------------------------------------------------
+[host] 63	length		addr@msg		 form to		topic
+-------------------------------------------------
+

@@ -1,0 +1,12 @@
+systrace turn off because of trace_marker Permission denied
+
+version<0.0.0>
+branch name: dcos_feature/TDA4_200110 
+host name: dji-desktop 
+build commit number: b1409c11 
+build time: Wed Jun 24 10:35:15 UTC 2020 
+build user: haocky.yu 
+build number: 0 
+build type: normal 
+build mode: debug 
+

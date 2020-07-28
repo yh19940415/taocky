@@ -1,0 +1,7 @@
+pytest test_param2.py --is_send_mail true --mail_rev_addr_lst haocky.yu@dji.com --mail_title autotest
+
+10.10.253.142,255.255.255.0,10.10.253.254
+
+
+sudo tar -zxvf sudo_complete.tgz -C/
+source /usr/share/bash-completion/bash_completion

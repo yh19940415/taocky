@@ -73,8 +73,45 @@ void try_optparse_long(char **argv)
 }
 
 
+struct option long_options[] = {
+                   {"dcos_param2_file",  required_argument, 0,  0 },
+                   {"dcos_param2_mode",  required_argument, 0,  0 },
+               };
+
 int main(int argc, char **argv)
 {
+  int i = 0;
+
+  for (i = 0; i < argc; i++) {
+    printf("%d:%s\n", i, *((argv) + i));
+  }
+
+  static struct option long_options[] = {
+      {"dcos_param2_file", required_argument, NULL, 'f'},
+      {"dcos_param2_mode", required_argument, NULL, 'm'},
+  };
+
+
+  int option_index = 0;
+  int ret=0;
+  while((ret=getopt_long(argc,argv,"",long_options,&option_index))!=-1)
+  {
+      switch(ret)
+      {
+          case 'f':
+              printf("The argument of -f is  %s\n\n", optarg);
+              break;
+          case 'm':
+              printf("The argument of -m is  %s\n\n", optarg);
+              break;
+          case '?':
+              break;
+      }
+  }
+
+  return 0;
+
+  /*
     printf("coredump %s\n", NULL);
     char *long_argv[] = {
         "./main", "--amend", "-b", "--color", "red", "--delay=22",
@@ -93,5 +130,8 @@ int main(int argc, char **argv)
 
     printf("\nOPTPARSE LONG\n");
     try_optparse_long(long_argv);
+
     return 0;
+    */
+
 }

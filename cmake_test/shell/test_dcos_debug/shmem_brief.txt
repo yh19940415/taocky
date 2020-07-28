@@ -1,0 +1,66 @@
+zone_info name:global_share_mem_zone,start:6000016c8000,length:2976108544,page_shift:20,max_order:6,nr_pages:2838
+order[0] nr_free: 1
+order[1] nr_free: 1
+order[2] nr_free: 0
+order[3] nr_free: 0
+order[4] nr_free: 0
+order[5] nr_free: 88
+free_pages: 2819
+
+  cache:   48.0K	page:    4.0M	@    8.0K
+  cache:  232.0K	page:    1.0M	@    8.0K
+  cache:   32.0K	page:    1.0M	@   32.0K
+
+  [host]:  2	total cache:  312.0K	page:    6.0M
+  [host]:  2	[nr_msg]:    1	[total]:0       
+|_________________________________________________|
+  cache:   32.0K	page:    4.0M	@    8.0K
+  cache:    8.0K	page:    1.0M	@    8.0K
+
+  [host]:  4	total cache:   40.0K	page:    5.0M
+  [host]:  4	[nr_msg]:    1	[total]:0       
+|_________________________________________________|
+  cache:  176.0K	page:    4.0M	@    8.0K
+  cache:    8.0K	page:    1.0M	@    8.0K
+  cache:   16.0K	page:    1.0M	@   16.0K
+  cache:   32.0K	page:    1.0M	@   32.0K
+  cache:  128.0K	page:    1.0M	@  128.0K
+
+  [host]: 63	total cache:  360.0K	page:    8.0M
+  [host]: 63	[nr_msg]:    8	[total]:0       
+|_________________________________________________|
+systrace turn off because of trace_marker Permission denied
+
+zone_info name:global_share_mem_zone,start:6000016c8000,length:2976108544,page_shift:20,max_order:6,nr_pages:2838
+order[0] nr_free: 1
+order[1] nr_free: 1
+order[2] nr_free: 0
+order[3] nr_free: 0
+order[4] nr_free: 0
+order[5] nr_free: 88
+free_pages: 2819
+
+  cache:   48.0K	page:    4.0M	@    8.0K
+  cache:  232.0K	page:    1.0M	@    8.0K
+  cache:   32.0K	page:    1.0M	@   32.0K
+
+  [host]:  2	total cache:  312.0K	page:    6.0M
+  [host]:  2	[nr_msg]:    1	[total]:0       
+|_________________________________________________|
+  cache:   32.0K	page:    4.0M	@    8.0K
+  cache:    8.0K	page:    1.0M	@    8.0K
+
+  [host]:  4	total cache:   40.0K	page:    5.0M
+  [host]:  4	[nr_msg]:    1	[total]:0       
+|_________________________________________________|
+  cache:  168.0K	page:    4.0M	@    8.0K
+  cache:    8.0K	page:    1.0M	@    8.0K
+  cache:   16.0K	page:    1.0M	@   16.0K
+  cache:   32.0K	page:    1.0M	@   32.0K
+  cache:  128.0K	page:    1.0M	@  128.0K
+
+  [host]: 63	total cache:  352.0K	page:    8.0M
+  [host]: 63	[nr_msg]:    4	[total]:0       
+|_________________________________________________|
+systrace turn off because of trace_marker Permission denied
+

@@ -1,0 +1,40 @@
+systrace turn off because of trace_marker Permission denied
+shmem:		 [1;33m0[0m locked, 		[1;33m0[0m failed, 	[1;33m0.000000[0m fail rate
+----------------------------------------------------------------------------------------------
+[1;31;40m[host]: 1          [name]: hal                              [alive]: No         [pid]: -1        [0m
+[host]: 2          [name]: debug_1                          [alive]: Yes        [pid]: 3148      
+[1;31;40m[host]: 3          [name]: gpu                              [alive]: No         [pid]: -1        [0m
+[host]: 4          [name]: dcos_param2_server               [alive]: Yes        [pid]: 26171     
+[host]: 63         [name]: dji_sys                          [alive]: Yes        [pid]: 26069     
+----------------------------------------------------------------------------------------------
+
+systrace turn off because of trace_marker Permission denied
+shmem:		 [1;33m0[0m locked, 		[1;33m0[0m failed, 	[1;33m0.000000[0m fail rate
+----------------------------------------------------------------------------------------------
+[1;31;40m[host]: 1          [name]: hal                              [alive]: No         [pid]: -1        [0m
+[host]: 2          [name]: debug_1                          [alive]: Yes        [pid]: 9663      
+[1;31;40m[host]: 3          [name]: gpu                              [alive]: No         [pid]: -1        [0m
+[host]: 4          [name]: dcos_param2_server               [alive]: Yes        [pid]: 26171     
+[host]: 63         [name]: dji_sys                          [alive]: Yes        [pid]: 26069     
+----------------------------------------------------------------------------------------------
+
+systrace turn off because of trace_marker Permission denied
+shmem:		 [1;33m0[0m locked, 		[1;33m0[0m failed, 	[1;33m0.000000[0m fail rate
+----------------------------------------------------------------------------------------------
+[1;31;40m[host]: 1          [name]: hal                              [alive]: No         [pid]: -1        [0m
+[host]: 2          [name]: debug_1                          [alive]: Yes        [pid]: 19199     
+[1;31;40m[host]: 3          [name]: gpu                              [alive]: No         [pid]: -1        [0m
+[host]: 4          [name]: dcos_param2_server               [alive]: Yes        [pid]: 26171     
+[host]: 63         [name]: dji_sys                          [alive]: Yes        [pid]: 26069     
+----------------------------------------------------------------------------------------------
+
+systrace turn off because of trace_marker Permission denied
+shmem:		 [1;33m0[0m locked, 		[1;33m0[0m failed, 	[1;33m0.000000[0m fail rate
+----------------------------------------------------------------------------------------------
+[1;31;40m[host]: 1          [name]: hal                              [alive]: No         [pid]: -1        [0m
+[host]: 2          [name]: debug_1                          [alive]: Yes        [pid]: 20800     
+[1;31;40m[host]: 3          [name]: gpu                              [alive]: No         [pid]: -1        [0m
+[host]: 4          [name]: dcos_param2_server               [alive]: Yes        [pid]: 26171     
+[host]: 63         [name]: dji_sys                          [alive]: Yes        [pid]: 26069     
+----------------------------------------------------------------------------------------------
+

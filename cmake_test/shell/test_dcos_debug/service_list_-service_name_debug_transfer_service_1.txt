@@ -1,0 +1,30 @@
+systrace turn off because of trace_marker Permission denied
+
+------dump service info begin: ------
+[1;33m Service:[debug_transfer_service_1] --> [0m 
+[1;33m	nr_server:1 [0m 
+[1;33m	nr_client:0 on machine:[0] --> [0m 
+[1;33m	nr_client:0 on machine:[1] --> [0m 
+[1;33m	nr_client:0 on machine:[2] --> [0m 
+[1;33m	nr_client:0 on machine:[3] --> [0m 
+[1;33m	nr_client:0 on machine:[4] --> [0m 
+[1;33m	nr_client:0 on machine:[5] --> [0m 
+[1;33m	nr_client:0 on machine:[6] --> [0m 
+[1;33m	nr_client:0 on machine:[7] --> [0m 
+[1;33m	nr_client:0 on machine:[8] --> [0m 
+[1;33m	nr_client:0 on machine:[9] --> [0m 
+[1;33m	nr_client:0 on machine:[10] --> [0m 
+[1;33m	nr_client:0 on machine:[11] --> [0m 
+[1;33m	nr_client:0 on machine:[12] --> [0m 
+[1;33m	nr_client:0 on machine:[13] --> [0m 
+[1;33m	nr_client:0 on machine:[14] --> [0m 
+[1;33m	nr_client:0 on machine:[15] --> [0m 
+[1;33m	nr_client:0 on machine:[16] --> [0m 
+[1;33m	nr_client:0 on machine:[17] --> [0m 
+	Server: 
+	-->on machine:<1> host:<63> module:<15>
+	Client: 
+
+
+------dump service info end: ------
+
